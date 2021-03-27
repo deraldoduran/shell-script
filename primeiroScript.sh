@@ -15,3 +15,7 @@ echo ${array[@]}
 echo ${array[3]}
 #conta tamanho do array
 echo ${#array[@]}
+#imprime a partir de
+echo ${array[@]:2}
+#imprim de - ate
+echo ${array[@]:1:3}
