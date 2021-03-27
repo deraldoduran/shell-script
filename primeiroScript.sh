@@ -19,3 +19,9 @@ echo ${#array[@]}
 echo ${array[@]:2}
 #imprim de - ate
 echo ${array[@]:1:3}
+#deletar 1 elemento do array
+unset array[0]
+echo ${array[@]}
+#apagar todo array
+unset array[*]
+echo ${array[*]}
